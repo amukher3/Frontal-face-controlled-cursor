@@ -11,6 +11,7 @@ A Novel and extremely simple way to control the mouse wirelessly,just with face 
 
 ***Procedure***:
 1) After installing the dependencies download the `Haar Cascade` the _.xml_ file for frontal face detection. 
+2) Set the _location_ of the _.xml_ file that you downloaded to the directory where you want to keep it i.e set `cv2.CascadeClassifier(.../desired_location)`. 
 2) Run the script and Enjoy!
 
 _**NB: For best results set the camera as far as possible from the face this would increase the receptive field and help sweep the entire screen just with frontal face movements. While setting the camera far from the face it needs to be made sure that the face is still being detected a small blue square indicates the face is being detected.**_
