@@ -1,4 +1,4 @@
-# Frontal-face-based-Mouse-controller
+# Frontal-face-controlled-mouse
 Controlling the mouse with frontal face movements
 
 A Novel and extremely simple way to control the mouse wirelessly,just with face movements, is presented here. Using `Haar cascades` to detect the frontal face and then passing the detected co-ordinates as parameters to `pyautogui` to move the cursor to the desired co-ordinates. 
